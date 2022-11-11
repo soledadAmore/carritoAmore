@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto CoderHouse Soledad</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <header class="page-nav">
+        <h3>Minus Keycaps</h3>
+        <div style="position: relative; display: flex; align-items: center; width: 40%;">
+            <div class="search-container">
+                <input class="form-control" id="buscador" placeholder="¿Qué estás buscando?">
+            </div>
+            <i class="bi bi-search"></i>
+        </div>
+        <button type="button" class="btn-cart" id='btn-cart'>
+            <i class="bi bi-cart2 carrito"></i>            
+            <span class="cantidad-carrito" id='cantidad-carrito'>0</span>
+        </button>
+        <dialog class="submenu" id="submenu">
+            <button class="btn-cerrar-carro" id='cerrar-modal'> 
+                <i class="bi bi-x"></i>
+            </button>
+            <table class='submenu-tabla' id="lista-carrito">
+                <thead>
+                    <tr>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <p class='total' id='total'>Total: $</p>
+            <div class="botones-dialog"> 
+                <a href="#" class="btn-vaciar-carro dialog" id="vaciar-carro">Vaciar Carrito</a>
+                <a href="pago.html" class="btn-comprar dialog" id="comprar">Comprar</a>
+            </div>
+        </dialog>
+    </header>
+    <div class="background">
+        <h1 class="text-back">Bienvenidos a Minus Keycaps</h1>
+        <p class="sub-back">Tenemos las mejores keycaps para que puedas customizar tu teclado como más te guste!</p>
+    </div>
+    <p class="productos">Nuestros productos</p>
+    <section class="container" id="container"><!-- Aca va codigo js para crear cada producto --></section>
+    <p class="productos">Producto destacado</p>
+    <section class="container" id="container-2"><!-- Aca va codigo js para crear un producto --></section>
+    <footer>Todos los derechos reservados.</footer>
+    <script src='js/miarchivo.js'></script>
+    <script src='js/buscador.js'></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>

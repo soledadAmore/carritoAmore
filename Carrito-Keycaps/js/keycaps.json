@@ -1,0 +1,10 @@
+[
+    {"id":1, "nombre": "Blank", "precio": 11000.00, "layout": "ANSI", "imagen": "img/blank-blue.jpg"},
+    {"id":2, "nombre": "Pudding", "precio": 3500.00, "layout": "ISO", "imagen": "img/pudding.jpg"},
+    {"id":3, "nombre": "Matcha", "precio": 5500.00, "layout": "ISO", "imagen": "img/matcha.jpg"},
+    {"id":4, "nombre": "Rainbow", "precio": 18500.00, "layout": "ANSI", "imagen": "img/rainbow.jpg"},
+    {"id":5, "nombre": "Sakura", "precio": 10000.00, "layout": "ANSI", "imagen": "img/sakura.jpg"},
+    {"id":6, "nombre": "Blank", "precio": 10500.00, "layout": "ISO", "imagen": "img/blank-white.jpg"},
+    {"id":7, "nombre": "Honey", "precio": 8500.00, "layout": "ANSI", "imagen": "img/honey.jpg"},
+    {"id":8, "nombre": "Purple", "precio": 10500.00, "layout": "ISO", "imagen": "img/purple.jpg"}
+]
